@@ -1,5 +1,5 @@
 import cpp
 
 from FunctionCall f
-where f.getTarget().getName()="strlen"
+where f.getTarget().getName()="memcpy"
 select f
